@@ -1,7 +1,7 @@
 
  const canvas = document.getElementById("canvas");
 const context = canvas.getContext("2d");
-
+/*
 const rand = function(num) {
 	return Math.floor(Math.random() * num) + 1;
 };
@@ -28,7 +28,7 @@ const speed = [-5,-4,-3,-2,-1,1,2,3,4,5];
 	  r(num);
 	  return a;
   };
-
+*/
 //////////////////////////
 const rand = function(num) {
 	return Math.floor(Math.random() * num) + 1;
@@ -56,7 +56,7 @@ const speed = [-5,-4,-3,-2,-1,1,2,3,4,5];
 	  r(num);
 	  return a;
   };
-  const point = createPoint(3, canvas.width,canvas.height);
+  const point = createPoint(5, canvas.width,canvas.height);
   const draw = function(){  
 context.clearRect(0,0,canvas.width,canvas.height);
 	  const drawEvery = function(arr,i){
